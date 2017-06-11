@@ -1,0 +1,33 @@
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+}
+
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+h1{
+  font-size: 35px;
+  margin: 0 0 15px 0;
+  color: $title;
+}
+
+h2{
+  font-size: 27px;
+  margin: 0 0 15px 0;
+  color: $title;
+  a{
+    color: $title;
+    text-decoration: none;
+  }
+}
+p{
+  margin-top: 0;
+}

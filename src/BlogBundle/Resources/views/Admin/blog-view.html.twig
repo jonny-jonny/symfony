@@ -1,0 +1,18 @@
+{% extends "BlogBundle::admin-layout.html.twig" %}
+
+{% block page_title %}Блоги{% endblock %}
+{% block main %}
+    <nav>
+        <ul class="menu-item">
+            <li class="item"><a href="{{ path("admin_blog_add") }}">Add Blog</a></li>
+        </ul>
+    </nav>
+    <div class="fields-row">
+        {% for blog in blogs %}
+            <div class="blog-row">
+                <div class="field field-title">{{ blog.title }}</div>
+                <div class="field field-blog-edit"><a href="{{ path('admin_blog_edit', { id : blog.id}) }}">Edit</a></div>
+            </div>
+        {% endfor %}
+    <div>
+{% endblock %}

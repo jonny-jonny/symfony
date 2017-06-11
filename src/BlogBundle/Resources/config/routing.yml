@@ -1,0 +1,35 @@
+homepage:
+  path: /
+  defaults: { _controller: BlogBundle:Blog:teaser }
+
+blog_teaser:
+  path: /blog
+  defaults: { _controller: BlogBundle:Blog:teaser }
+
+blog_view:
+  path: /blog/{id}
+  defaults: { _controller: BlogBundle:Blog:blogView }
+  requirements:
+    id: \d+
+
+blog_about_us:
+  path: /about_us
+  defaults: { _controller: BlogBundle:Page:aboutUs }
+
+admin_page:
+  path: /admin
+  defaults: { _controller: BlogBundle:Admin:index }
+
+admin_blog:
+  path: /admin/blog
+  defaults: { _controller: BlogBundle:Admin:blog }
+
+admin_blog_add:
+  path: /admin/blog/add
+  defaults: { _controller: BlogBundle:Admin:blogAdd }
+
+admin_blog_edit:
+  path: /admin/blog/{id}/edit
+  defaults: { _controller: BlogBundle:Admin:blogEdit }
+  requirements:
+      id: \d+

@@ -1,0 +1,49 @@
+#main_container {
+  margin: 20px auto;
+  width: $desktop;
+
+  article {
+    .field-created {
+      font-size: 16px;
+      color: $date7;
+    }
+    .field {
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    &.blog-teaser {
+      .article-title{
+        text-align: center;
+      }
+      .field-created {
+        text-align: center;
+      }
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+      border-bottom: 2px solid $cd5;
+      &:last-child{
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        border-bottom-width: 0;
+      }
+    }
+    .link-menu{
+      ul{
+        margin: 0;
+        padding: 0;
+        li{
+          list-style-type: none;
+          text-align: center;
+          a{
+            color: $orange;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

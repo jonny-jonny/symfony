@@ -1,0 +1,45 @@
+{% extends "::base.html.twig" %}
+
+{% block body %}
+
+    {% block header %}
+        <header>
+            {% block logo %}
+                <div class="block block-logo">
+                    <a href="{{ path('homepage') }}"><img src="{{ asset('images/logo.png') }}" /></a>
+                </div>
+            {% endblock %}
+            {% block main_menu %}
+                <div class="main-menu" id="menu_main_menu">
+                    <div class="type-menu">
+                        <ul>
+                            <li><a href="{{ path('homepage') }}">Главная</a></li>
+                            <li><a href="{{ path('blog_teaser') }}">Блог</a></li>
+                            <li><a href="{{ path('blog_about_us') }}">Про нас</a></li>
+                        </ul>
+                    </div>
+                </div>
+            {% endblock %}
+        </header>
+    {% endblock %}
+
+    {% block content %}
+        <div id="main_container">
+            {% block site_title %}
+                <div class="page_title" id="page_title">
+                    <h1>{% block page_title %}Page title{% endblock %}</h1>
+                </div>
+            {% endblock %}
+                <main>
+                    {% block main %}{% endblock %}
+                </main>
+        </div>
+    {% endblock %}
+
+    {% block footer %}
+        <footer role="contentinfo">
+                Copyright &copy 2017. All right reserved
+        </footer>
+    {% endblock %}
+
+{% endblock %}

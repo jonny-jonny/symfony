@@ -1,0 +1,146 @@
+/* line 1, ../../sass/include/_typografy.scss */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../../sass/include/_typografy.scss */
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+}
+
+/* line 11, ../../sass/include/_typografy.scss */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/* line 16, ../../sass/include/_typografy.scss */
+h1 {
+  font-size: 35px;
+  margin: 0 0 15px 0;
+  color: #1a665a;
+}
+
+/* line 22, ../../sass/include/_typografy.scss */
+h2 {
+  font-size: 27px;
+  margin: 0 0 15px 0;
+  color: #1a665a;
+}
+/* line 26, ../../sass/include/_typografy.scss */
+h2 a {
+  color: #1a665a;
+  text-decoration: none;
+}
+
+/* line 31, ../../sass/include/_typografy.scss */
+p {
+  margin-top: 0;
+}
+
+/* line 1, ../../sass/include/_header.scss */
+.block-logo {
+  background-color: #d5dedd;
+  padding: 10px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 8, ../../sass/include/_header.scss */
+#menu_main_menu {
+  background-color: #b4ebcd;
+  margin-top: 10px;
+}
+/* line 11, ../../sass/include/_header.scss */
+#menu_main_menu .title-menu {
+  margin: 0 auto;
+  width: 860px;
+}
+/* line 15, ../../sass/include/_header.scss */
+#menu_main_menu ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* line 19, ../../sass/include/_header.scss */
+#menu_main_menu ul li {
+  display: inline-block;
+  padding: 10px;
+}
+/* line 22, ../../sass/include/_header.scss */
+#menu_main_menu ul li a {
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #1a665a;
+  text-transform: uppercase;
+}
+/* line 28, ../../sass/include/_header.scss */
+#menu_main_menu ul li a:hover {
+  text-decoration: underline;
+}
+
+/* line 1, ../../sass/include/_footer.scss */
+footer {
+  background-color: #d5dedd;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* line 1, ../../sass/include/_main.scss */
+#main_container {
+  margin: 20px auto;
+  width: 860px;
+}
+/* line 6, ../../sass/include/_main.scss */
+#main_container article .field-created {
+  font-size: 16px;
+  color: #808080;
+}
+/* line 10, ../../sass/include/_main.scss */
+#main_container article .field {
+  margin-bottom: 15px;
+}
+/* line 12, ../../sass/include/_main.scss */
+#main_container article .field:last-child {
+  margin-bottom: 0;
+}
+/* line 16, ../../sass/include/_main.scss */
+#main_container article.blog-teaser {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #d5dedd;
+}
+/* line 17, ../../sass/include/_main.scss */
+#main_container article.blog-teaser .article-title {
+  text-align: center;
+}
+/* line 20, ../../sass/include/_main.scss */
+#main_container article.blog-teaser .field-created {
+  text-align: center;
+}
+/* line 26, ../../sass/include/_main.scss */
+#main_container article.blog-teaser:last-child {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border-bottom-width: 0;
+}
+/* line 33, ../../sass/include/_main.scss */
+#main_container article .link-menu ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 36, ../../sass/include/_main.scss */
+#main_container article .link-menu ul li {
+  list-style-type: none;
+  text-align: center;
+}
+/* line 39, ../../sass/include/_main.scss */
+#main_container article .link-menu ul li a {
+  color: #FFA500;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}

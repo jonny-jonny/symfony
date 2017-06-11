@@ -1,0 +1,18 @@
+{% extends "::page.html.twig" %}
+
+{% block page_title %}
+    {{ blog.title }}
+{% endblock %}
+
+{% block main %}
+    <article class="blog">
+        <div class="container blog-container">
+            <div class="field field-created">
+                {{ blog.created|date("d-m-Y H:m") }}
+            </div>
+            <div class="field field-body">
+                {{ blog.body|raw }}
+            </div>
+        </div>
+    </article>
+{% endblock %}
