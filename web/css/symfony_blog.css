@@ -214,3 +214,30 @@ form button {
   padding: 5px 20px;
   border-width: 0;
 }
+
+/* line 1, ../../sass/include/_pagination.scss */
+.pagination {
+  text-align: center;
+}
+/* line 3, ../../sass/include/_pagination.scss */
+.pagination ul {
+  padding: 10px;
+  margin: 10px;
+}
+/* line 6, ../../sass/include/_pagination.scss */
+.pagination ul li {
+  padding: 0;
+  margin: 0 5px;
+  list-style-type: none;
+  display: inline-block;
+  color: #FFA500;
+}
+/* line 12, ../../sass/include/_pagination.scss */
+.pagination ul li a {
+  color: #FFA500;
+  text-decoration: none;
+}
+/* line 16, ../../sass/include/_pagination.scss */
+.pagination ul li.current {
+  font-weight: bold;
+}
