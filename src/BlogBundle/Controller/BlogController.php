@@ -11,7 +11,8 @@ class BlogController extends Controller
         return $this->render("::base.html.twig");
     }
 
-    public function blogViewAction($id){
+    public function blogViewAction( $id ){
+
         $em = $this->getDoctrine();
         $blogRepository = $em->getRepository("BlogBundle:Blog");
         $blog = $blogRepository->find($id);
@@ -20,12 +21,13 @@ class BlogController extends Controller
         ]);
     }
 
-    public function teaserAction( Request $request){
+    public function teaserAction( Request $request ){
         $em = $this->getDoctrine();
         $blogRepository = $em->getRepository("BlogBundle:Blog");
-        $totalBlog=$blogRepository->findAllBlogCount();
-        $page = $request->query->get("page") && $request->query->get("page") >1 ? $request->query->get("page") : 1;
-        $blogs = $blogRepository->findBlog(["page"=>$page]);
+        $totalBlog = $blogRepository->findAllBlogCount();
+
+        $page = $request->query->get("page") && $request->query->get("page")  > 1 ? $request->query->get("page") : 1 ;
+        $blogs = $blogRepository->findBlog(["page" => $page]);
         $pagination = [
             "total" => array_shift($totalBlog),
             "page" => $page,
@@ -33,7 +35,7 @@ class BlogController extends Controller
             "url" => "blog_teaser"
         ];
         return $this->render("BlogBundle:Blog:teaser.html.twig", [
-            "blogs" => $blogs,
+            'blogs' => $blogs,
             "pagination" => $pagination
         ]);
     }

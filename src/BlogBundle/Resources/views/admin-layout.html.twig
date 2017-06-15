@@ -1,10 +1,11 @@
 {% extends "::page.html.twig" %}
+{% block main_class %}main-view-admin{% endblock %}
 {% block main_menu %}
     <div class="main-menu" id="menu_main_menu">
         <div class="type-menu">
             <ul>
-                <li><a href="{{ path('homepage') }}">Главная</a></li>
-                <li><a href="{{ path('blog_teaser') }}">Блог</a></li>
+                <li><a href="{{ path("homepage") }}">Главная</a></li>
+                <li><a href="{{ path("admin_blog") }}">Блоги</a></li>
             </ul>
         </div>
     </div>

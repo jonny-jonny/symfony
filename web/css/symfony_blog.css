@@ -144,3 +144,73 @@ footer {
   font-weight: bold;
   text-decoration: none;
 }
+
+/* line 3, ../../sass/include/_admin.scss */
+.main-view-admin .menu-item a {
+  color: #FFA500;
+  text-decoration: none;
+}
+/* line 9, ../../sass/include/_admin.scss */
+.main-view-admin .blog-view-admin .field-row {
+  margin-bottom: 20px;
+}
+/* line 11, ../../sass/include/_admin.scss */
+.main-view-admin .blog-view-admin .field-row .field {
+  display: inline-block;
+}
+/* line 15, ../../sass/include/_admin.scss */
+.main-view-admin .blog-view-admin .field-title {
+  width: calc(90% - 4px);
+  color: #1a665a;
+  font-size: 18px;
+}
+/* line 20, ../../sass/include/_admin.scss */
+.main-view-admin .blog-view-admin .field-blog-edit {
+  width: 10%;
+  text-align: right;
+}
+/* line 22, ../../sass/include/_admin.scss */
+.main-view-admin .blog-view-admin .field-blog-edit a {
+  color: #FFA500;
+  text-decoration: none;
+}
+
+/* line 1, ../../sass/include/_form.scss */
+form {
+  background-color: #d5dedd;
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+}
+/* line 6, ../../sass/include/_form.scss */
+form label {
+  display: block;
+  font-size: 17px;
+  color: #1a665a;
+  margin-bottom: 5px;
+}
+/* line 13, ../../sass/include/_form.scss */
+form input[type="text"], form input[type="password"], form input[type="email"] {
+  width: 100%;
+  border: 1px solid #b9bdbd;
+  padding: 2px 5px;
+}
+/* line 19, ../../sass/include/_form.scss */
+form textarea {
+  width: 100%;
+  border: 1px solid #b9bdbd;
+  padding: 2px 5px;
+  resize: none;
+  min-height: 200px;
+}
+/* line 26, ../../sass/include/_form.scss */
+form button {
+  cursor: pointer;
+  margin-top: 10px;
+  color: white;
+  background-color: #1a665a;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 5px 20px;
+  border-width: 0;
+}

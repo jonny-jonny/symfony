@@ -30,7 +30,7 @@
                     <h1>{% block page_title %}Page title{% endblock %}</h1>
                 </div>
             {% endblock %}
-                <main>
+                <main class="{% block main_class %}{% endblock %}">
                     {% block main %}{% endblock %}
                 </main>
         </div>
