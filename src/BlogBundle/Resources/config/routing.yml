@@ -18,7 +18,7 @@ blog_about_us:
 
 admin_page:
   path: /admin
-  defaults: { _controller: BlogBundle:Admin:index }
+  defaults: { _controller: BlogBundle:Admin:blog }
 
 admin_blog:
   path: /admin/blog

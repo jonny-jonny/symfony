@@ -93,51 +93,52 @@ footer {
 #main_container {
   margin: 20px auto;
   width: 860px;
+  min-height: calc(100vh - 230px);
 }
-/* line 6, ../../sass/include/_main.scss */
+/* line 7, ../../sass/include/_main.scss */
 #main_container article .field-created {
   font-size: 16px;
   color: #808080;
 }
-/* line 10, ../../sass/include/_main.scss */
+/* line 11, ../../sass/include/_main.scss */
 #main_container article .field {
   margin-bottom: 15px;
 }
-/* line 12, ../../sass/include/_main.scss */
+/* line 13, ../../sass/include/_main.scss */
 #main_container article .field:last-child {
   margin-bottom: 0;
 }
-/* line 16, ../../sass/include/_main.scss */
+/* line 17, ../../sass/include/_main.scss */
 #main_container article.blog-teaser {
   padding-bottom: 15px;
   margin-bottom: 15px;
   border-bottom: 2px solid #d5dedd;
 }
-/* line 17, ../../sass/include/_main.scss */
+/* line 18, ../../sass/include/_main.scss */
 #main_container article.blog-teaser .article-title {
   text-align: center;
 }
-/* line 20, ../../sass/include/_main.scss */
+/* line 21, ../../sass/include/_main.scss */
 #main_container article.blog-teaser .field-created {
   text-align: center;
 }
-/* line 26, ../../sass/include/_main.scss */
+/* line 27, ../../sass/include/_main.scss */
 #main_container article.blog-teaser:last-child {
   padding-bottom: 0px;
   margin-bottom: 0px;
   border-bottom-width: 0;
 }
-/* line 33, ../../sass/include/_main.scss */
+/* line 34, ../../sass/include/_main.scss */
 #main_container article .link-menu ul {
   margin: 0;
   padding: 0;
 }
-/* line 36, ../../sass/include/_main.scss */
+/* line 37, ../../sass/include/_main.scss */
 #main_container article .link-menu ul li {
   list-style-type: none;
   text-align: center;
 }
-/* line 39, ../../sass/include/_main.scss */
+/* line 40, ../../sass/include/_main.scss */
 #main_container article .link-menu ul li a {
   color: #FFA500;
   font-size: 18px;

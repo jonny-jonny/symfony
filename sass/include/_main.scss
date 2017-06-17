@@ -1,6 +1,7 @@
 #main_container {
   margin: 20px auto;
   width: $desktop;
+  min-height: calc(100vh - 230px);
 
   article {
     .field-created {

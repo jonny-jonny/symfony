@@ -10,7 +10,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 class AdminController extends Controller{
     public function indexAction(){
-        return new Response("HERE");
+        return new Response("");
     }
 
     public function blogAction(Request $request){
